@@ -1,6 +1,9 @@
-2024/07/09-13:12:20.077 1cb4 Reusing MANIFEST C:\Users\Shubh\AppData\Local\Temp\flutter_tools.db3e792f\flutter_tools_chrome_device.ebb7e7b9\Default\shared_proto_db/MANIFEST-000001
-2024/07/09-13:12:20.078 1cb4 Recovering log #10
-2024/07/09-13:12:20.079 1cb4 Reusing old log C:\Users\Shubh\AppData\Local\Temp\flutter_tools.db3e792f\flutter_tools_chrome_device.ebb7e7b9\Default\shared_proto_db/000010.log 
-2024/07/09-13:12:20.080 1cb4 Delete type=0 #3
-2024/07/09-13:12:20.080 1cb4 Delete type=0 #4
-2024/07/09-13:12:20.080 1cb4 Delete type=0 #7
+2024/07/09-22:06:17.294 20a8 Reusing MANIFEST C:\Users\Shubh\AppData\Local\Temp\flutter_tools.f6dd53c9\flutter_tools_chrome_device.c28f7ae1\Default\shared_proto_db/MANIFEST-000001
+2024/07/09-22:06:17.295 20a8 Recovering log #10
+2024/07/09-22:06:17.299 20a8 Reusing old log C:\Users\Shubh\AppData\Local\Temp\flutter_tools.f6dd53c9\flutter_tools_chrome_device.c28f7ae1\Default\shared_proto_db/000010.log 
+2024/07/09-22:06:17.300 20a8 Delete type=0 #3
+2024/07/09-22:06:17.300 20a8 Delete type=0 #4
+2024/07/09-22:06:17.300 20a8 Delete type=0 #7
+2024/07/09-22:06:43.558 2a34 Level-0 table #14: started
+2024/07/09-22:06:43.571 2a34 Level-0 table #14: 139141 bytes OK
+2024/07/09-22:06:43.576 2a34 Delete type=0 #10
