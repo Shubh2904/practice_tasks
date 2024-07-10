@@ -23,34 +23,39 @@ class Toast extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
             
             
-            
               children: [
             
-                ElevatedButton(
-                  onPressed: ()
-                  {
-                    if(webBuild())
-                      showSnackbarUsing(context: context, snackMsg: "Toast Substitute");
-                    else 
-                      return showToast();
-                  },
-                  child: const Text("Show Toast",),
-                  ),
+                //TOAST
+
+                // ElevatedButton(
+                //   onPressed: ()
+                //   {
+                //     if(webBuild())
+                //       showSnackbarUsing(context: context, snackMsg: "Toast Substitute");
+                //     else 
+                //       return showToast();
+                //   },
+                //   child: const Text("Show Toast",),
+                //   ),
             
-                Text(compatibilityMsg(), style: const TextStyle(color: Colors.amber),),
+                // Text(compatibilityMsg(), style: const TextStyle(color: Colors.amber),),
             
 
+
+                //SNACKBAR
+
                 ElevatedButton(
-                  onPressed: () {
-                  final snackBar = SnackBar(
+                  onPressed: () 
+                  {
+                  final snackBar = 
+                  SnackBar(
                     content: const Text('Yay! A SnackBar!'),
                     action: SnackBarAction(
                       label: 'Undo',
                       onPressed: () {
                         // Some code to undo the change.
                       },
-                    ),
-                  );
+                    ),);
 
                   // Find the ScaffoldMessenger in the widget tree
                   // and use it to show a SnackBar.
@@ -59,7 +64,7 @@ class Toast extends StatelessWidget {
           
 
                   child: const Text("Show Snackbar",),
-                  ),
+                ),
             
               ],
             ),
@@ -80,7 +85,8 @@ class Toast extends StatelessWidget {
 
   void showSnackbarUsing({required BuildContext context, required String snackMsg})
   {
-     final snackBar = SnackBar(
+     final snackBar = 
+     SnackBar(
         content: Text(snackMsg),
         action: SnackBarAction(
           label: 'Undo',
