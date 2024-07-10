@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/foundation.dart';
 
 const String loremIpsm = "Lorem ipsum dolor sit amet. Id quaerat aperiam qui repellat nostrum est consequatur voluptates et suscipit sunt ut neque obcaecati. Non recusandae tempora aut similique rerum est sint accusamus cum perspiciatis illo ut cupiditate maxime. Quo quibusdam quia aut dolorum suscipit ab consequatur corporis est saepe commodi quo sapiente omnis? Qui tempora deserunt ut eveniet eveniet sit fuga sapiente? Id modi consequatur hic ratione nulla rem Quis praesentium ab enim provident. Eos debitis galisum et molestiae dolore et dolores omnis. Ea doloremque iusto ab galisum placeat 33 obcaecati dolore. Eos autem molestiae sit amet dolor in eveniet eligendi rem velit officiis eos optio optio ea voluptas architecto. Et ipsum quas cum vero voluptas sit quam odit rem quidem repudiandae hic omnis perspiciatis.";
 const int loremIpsmLength = loremIpsm.length; 
@@ -52,6 +52,12 @@ Color rDarkColor()
   }
 
 int rInt({int min = 0, int max = 100}) {
+
     Random random = new Random();
     return min + random.nextInt(max - min);
+}
+
+bool webBuild()
+{
+  return kIsWeb; //from foundation library
 }

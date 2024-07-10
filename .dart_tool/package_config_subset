@@ -14,6 +14,10 @@ flutter_test
 3.3
 file:///C:/Computer/Programs/flutter/packages/flutter_test/
 file:///C:/Computer/Programs/flutter/packages/flutter_test/lib/
+flutter_web_plugins
+3.2
+file:///C:/Computer/Programs/flutter/packages/flutter_web_plugins/
+file:///C:/Computer/Programs/flutter/packages/flutter_web_plugins/lib/
 async
 2.18
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0/
@@ -50,6 +54,10 @@ flutter_lints
 3.1
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/lib/
+fluttertoast
+2.12
+file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/fluttertoast-8.2.6/
+file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/fluttertoast-8.2.6/lib/
 leak_tracker
 3.2
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.4/
@@ -122,6 +130,10 @@ vm_service
 3.3
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.1/
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.1/lib/
+web
+3.3
+file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.5.1/
+file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.5.1/lib/
 xml
 3.2
 file:///C:/Users/Shubh/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0/

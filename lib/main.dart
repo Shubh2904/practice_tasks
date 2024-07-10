@@ -1,10 +1,12 @@
-import 'img_slider.dart';
 import 'package:flutter/material.dart';
+// import 'img_slider.dart';
+// import 'slider_with_progress.dart';
+// import 'toast.dart';
 
 void main() {
   
   // runApp(const MyAppTest());
-  runApp(MyApp());
+  // runApp(const Toast());
   // runApp(const RadioExample());
 
 }
