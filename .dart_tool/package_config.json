@@ -212,10 +212,10 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-10T06:30:18.131432Z",
+  "generated": "2024-07-10T07:09:34.612093Z",
   "generator": "pub",
-  "generatorVersion": "3.4.1",
+  "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/Computer/Programs/flutter",
-  "flutterVersion": "3.22.1",
+  "flutterVersion": "3.22.2",
   "pubCache": "file:///C:/Users/Shubh/AppData/Local/Pub/Cache"
 }

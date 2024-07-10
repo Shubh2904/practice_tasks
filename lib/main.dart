@@ -1,14 +1,14 @@
+
 import 'package:flutter/material.dart';
 // import 'img_slider.dart';
 // import 'slider_with_progress.dart';
-// import 'toast.dart';
+import 'toast_and_snackbar.dart';
+import 'toast_snackbar_test.dart';
 
 void main() {
   
-  // runApp(const MyAppTest());
-  // runApp(const Toast());
-  // runApp(const RadioExample());
-
+  runApp(const Toast());
+  
 }
 
 
