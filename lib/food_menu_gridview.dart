@@ -44,8 +44,8 @@ List<dynamic> data =
 
 
 
-class GridPractice extends StatelessWidget {
-  const GridPractice({super.key});
+class FoodMenu extends StatelessWidget {
+  const FoodMenu({super.key});
 
   @override
   Widget build(BuildContext context) {

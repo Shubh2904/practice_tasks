@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'my_radio.dart';
+import 'my_dropdown.dart';
 
 
 class MyForm extends StatelessWidget {
@@ -56,7 +57,9 @@ class MyForm extends StatelessWidget {
 
                 //RADIO SELECTION
 
-                const Expanded(child: RadioExample(heading: "Choose meal preference...", options: ["Lunch", "Dinner", "Dessert"],)),
+                const Expanded(child: SizedBox(
+                  height: 200,
+                  child: RadioExample(heading: "Choose meal preference...", options: ["Lunch", "Dinner", "Dessert"],))),
 
                 //CHECKBOX
                 ListTile(
@@ -65,6 +68,8 @@ class MyForm extends StatelessWidget {
                 ),
                 
 
+                //DROPDOWN
+                const Expanded(child: MyDropDown(options: ["A","B","C"], hint: "Choose meal type...")),
                 
 
                 //COMPANY NAME

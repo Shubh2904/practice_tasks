@@ -54,7 +54,7 @@ class GridPractice extends StatelessWidget {
         // scrollDirection: Axis.horizontal,
         
         
-        itemCount: 10,
+        // itemCount: 10,
         itemBuilder: (context, index) {
           
         
