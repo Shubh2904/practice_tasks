@@ -16,7 +16,10 @@ class MyApp extends StatelessWidget {
 }
 
 class ImageSlider extends StatelessWidget {
-  final List<String> imgList = [
+  
+  const ImageSlider({super.key});
+
+  static const List<String> imgList = [
     'assets/2.jpg',
     'assets/3.jpg',
     'assets/4.jpg',
@@ -26,6 +29,7 @@ class ImageSlider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Center(
       child: CarouselSlider(
         options: CarouselOptions(
@@ -39,11 +43,12 @@ class ImageSlider extends StatelessWidget {
           pauseAutoPlayOnTouch: true,
           scrollDirection: Axis.horizontal,
         ),
+        
         items: imgList.map((item) => Container(
           child: Center(
             child: Image.asset(item, fit: BoxFit.cover, width: 1000)
-          ),
-        )).toList(),
+          ),)
+          ).toList(),
       ),
     );
   }
