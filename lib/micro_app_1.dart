@@ -1,8 +1,10 @@
-import 'package:assignment/food_menu_gridview.dart';
+
 import 'package:flutter/material.dart';
+
 import 'my_navigation_bar.dart';
 import 'creditcard_gridview.dart';
-// import 'food_menu_gridview.dart';
+import 'food_menu_gridview.dart';
+import 'date_picker_practice.dart';
 
 class MicroApp1 extends StatefulWidget {
   
@@ -18,12 +20,13 @@ class _MicroApp1State extends State<MicroApp1> {
   final List<NavigationDestination> navDestinations = const [
     NavigationDestination(icon: Icon(Icons.credit_card), label: "Cards"),
     NavigationDestination(icon: Icon(Icons.dinner_dining), label: "Food Menu"),
-    // NavigationDestination(icon: Icon(Icons.abc), label: "Upload"),
+    NavigationDestination(icon: Icon(Icons.calendar_month), label: "Date"),
   ];
 
   final List<Widget> widgetOptions = const [
     GridPractice(),
     FoodMenu(),
+    DatePickerPage(),
   ];
 
   @override

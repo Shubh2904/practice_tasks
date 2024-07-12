@@ -54,7 +54,9 @@ class FoodMenu extends StatelessWidget {
 
         home: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-        itemCount: data.length,
+        
+        itemCount: 15,
+        
         itemBuilder: (context, index) {
 
           

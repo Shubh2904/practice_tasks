@@ -21,7 +21,7 @@ class MyNavigationBarState extends State<MyNavigationBar> {
     setState(() {
       {
         selectedIndex = index;
-        print(selectedIndex);    
+           
         widget.updateCallback();
       }
 
