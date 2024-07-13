@@ -1,2 +1,7 @@
-2024/07/10-13:44:37.160 1438 Creating DB C:\Users\Shubh\AppData\Local\Temp\flutter_tools.3f41459c\flutter_tools_chrome_device.eb23f0c8\Default\WebStorage\32\IndexedDB\indexeddb.leveldb since it was missing.
-2024/07/10-13:44:37.169 1438 Reusing MANIFEST C:\Users\Shubh\AppData\Local\Temp\flutter_tools.3f41459c\flutter_tools_chrome_device.eb23f0c8\Default\WebStorage\32\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2024/07/12-13:57:43.313 2e0c Reusing MANIFEST C:\Users\Shubh\AppData\Local\Temp\flutter_tools.fbd8cfa2\flutter_tools_chrome_device.ab165830\Default\WebStorage\32\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2024/07/12-13:57:43.315 2e0c Recovering log #3
+2024/07/12-13:57:43.317 2e0c Reusing old log C:\Users\Shubh\AppData\Local\Temp\flutter_tools.fbd8cfa2\flutter_tools_chrome_device.ab165830\Default\WebStorage\32\IndexedDB\indexeddb.leveldb/000003.log 
+2024/07/12-13:57:43.521 de4 Level-0 table #5: started
+2024/07/12-13:57:43.524 de4 Level-0 table #5: 11503 bytes OK
+2024/07/12-13:57:43.528 de4 Delete type=0 #3
+2024/07/12-13:57:43.529 de4 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

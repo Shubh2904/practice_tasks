@@ -35,13 +35,15 @@ class ImageSlider extends StatelessWidget {
         options: CarouselOptions(
           height: 400.0,
           autoPlay: true,
-          enlargeCenterPage: true,
+          // enlargeCenterPage: true,
+          // enlargeFactor: 3,
           aspectRatio: 16/9,
           autoPlayInterval: Duration(seconds: 3),
           autoPlayAnimationDuration: Duration(milliseconds: 800),
           autoPlayCurve: Curves.fastOutSlowIn,
           pauseAutoPlayOnTouch: true,
           scrollDirection: Axis.horizontal,
+
         ),
         
         items: imgList.map((item) => Container(
